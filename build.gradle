@@ -27,5 +27,6 @@ android {
 }
 
 dependencies {
-    compile ('com.faendir.rhino:rhino-android:1.2')
+    compile ('com.faendir.rhino:rhino-android:1.3')
+    //compile project(path: ':rhino-android')
 }
