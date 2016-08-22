@@ -34,6 +34,7 @@
         android:layout_above="@+id/button"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:gravity="start"/>
+        android:gravity="start"
+        android:text="@string/default_code"/>
 
 </RelativeLayout>
