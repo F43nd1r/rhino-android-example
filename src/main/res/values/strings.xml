@@ -3,4 +3,5 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="button_toast">Toast</string>
     <string name="default_code">\"Hello World\"</string>
+    <string name="load_jars">Load Jars</string>
 </resources>
