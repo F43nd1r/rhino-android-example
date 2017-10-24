@@ -11,20 +11,20 @@
     tools:context="com.faendir.rhino_android.MainActivity">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
         android:onClick="button"
-        android:text="@string/load_jars"/>
+        android:text="@string/button_compare"/>
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@id/button2"
+        android:layout_above="@id/button3"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:onClick="button"
