@@ -16,17 +16,10 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
-        minified.initWith(buildTypes.debug)
-        minified {
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), "proguard-rules.pro"
-            testProguardFile "test-proguard-rules.pro"
-            testCoverageEnabled true
-        }
     }
 }
 
 dependencies {
     //compile ('com.faendir.rhino:rhino-android:1.3')
-    compile project(path: ':rhino-android')
+    implementation project(':rhino-android')
 }
